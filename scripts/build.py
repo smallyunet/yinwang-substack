@@ -76,7 +76,7 @@ def render_index(items: list[dict]) -> str:
         title = html.escape(it["title"])
         date = html.escape(it["date"])
         slug = it["slug"]
-        li.append(f"<li><a href=\"/posts/{slug}/\">{title}</a><span class=\"date\">{date}</span></li>")
+        li.append(f"<li><a href=\"posts/{slug}/\">{title}</a><span class=\"date\">{date}</span></li>")
     lis = "\n".join(li)
     return f"""<!doctype html>
 <html lang=\"zh\">
@@ -132,54 +132,80 @@ def main() -> None:
     (site_dir / ".nojekyll").write_text("", encoding="utf-8")
     write_style(site_dir)
 
-    archive = read_json(raw_dir / "archive.json")
-    # sort by post_date desc
-    def key(x):
-        return x.get("post_date") or ""
+    archive: list[dict] = []
+    archive_path = raw_dir / "archive.json"
+    if archive_path.exists():
+      try:
+        tmp = read_json(archive_path)
+        if isinstance(tmp, list):
+          archive = [a for a in tmp if isinstance(a, dict)]
+      except Exception:
+        archive = []
+    archive_by_slug = {a.get("slug"): a for a in archive if a.get("slug")}
 
-    archive_sorted = sorted([a for a in archive if a.get("slug")], key=key, reverse=True)
+    # Prefer scanning what we actually have in raw_dir/posts so build doesn't depend on archive.json size.
+    posts_root = raw_dir / "posts"
+    slugs: list[str] = []
+    if posts_root.exists():
+      for p in posts_root.iterdir():
+        if p.is_dir():
+          slugs.append(p.name)
+
+    items: list[dict] = []
+    for slug in slugs:
+      post_dir = posts_root / slug
+      post_json_path = post_dir / "post.json"
+      body_path = post_dir / "body.html"
+      if not post_json_path.exists() or not body_path.exists():
+        continue
+      post = read_json(post_json_path)
+      a = archive_by_slug.get(slug) or {}
+      post_date = post.get("post_date") or a.get("post_date") or ""
+      items.append({"slug": slug, "post": post, "post_date": post_date})
+
+    def sort_key(it: dict) -> str:
+      return it.get("post_date") or ""
+
+    items_sorted = sorted(items, key=sort_key, reverse=True)
 
     index_items: list[dict] = []
-    for a in archive_sorted:
-        slug = a["slug"]
-        post_dir = raw_dir / "posts" / slug
-        post_json_path = post_dir / "post.json"
-        body_path = post_dir / "body.html"
-        media_map_path = post_dir / "media_map.json"
-        if not post_json_path.exists() or not body_path.exists():
-            continue
+    for it in items_sorted:
+      slug = it["slug"]
+      post_dir = posts_root / slug
+      body_path = post_dir / "body.html"
+      media_map_path = post_dir / "media_map.json"
 
-        post = read_json(post_json_path)
-        title = post.get("title") or slug
-        date = iso_to_date(post.get("post_date") or a.get("post_date"))
-        subtitle = post.get("description") or ""
+      post = it["post"]
+      title = post.get("title") or slug
+      date = iso_to_date(it.get("post_date"))
+      subtitle = post.get("description") or ""
 
-        body_html = body_path.read_text(encoding="utf-8")
-        media_map = read_json(media_map_path) if media_map_path.exists() else {}
+      body_html = body_path.read_text(encoding="utf-8")
+      media_map = read_json(media_map_path) if media_map_path.exists() else {}
 
-        # copy media
-        src_media_dir = post_dir / "media"
-        out_media_dir = site_dir / "assets" / "posts" / slug
-        ensure_dir(out_media_dir)
-        if src_media_dir.exists():
-            for p in src_media_dir.iterdir():
-                if p.is_file():
-                    shutil.copy2(p, out_media_dir / p.name)
+      # copy media
+      src_media_dir = post_dir / "media"
+      out_media_dir = site_dir / "assets" / "posts" / slug
+      ensure_dir(out_media_dir)
+      if src_media_dir.exists():
+        for p in src_media_dir.iterdir():
+          if p.is_file():
+            shutil.copy2(p, out_media_dir / p.name)
 
-        rewritten = rewrite_images(body_html, media_map, rel_prefix=f"../../assets/posts/{slug}/")
-        post_html = render_page(
-          title=title,
-          subtitle=date,
-          content_html=rewritten,
-          css_href="../../assets/style.css",
-          home_href="../../",
-        )
+      rewritten = rewrite_images(body_html, media_map, rel_prefix=f"../../assets/posts/{slug}/")
+      post_html = render_page(
+        title=title,
+        subtitle=date,
+        content_html=rewritten,
+        css_href="../../assets/style.css",
+        home_href="../../",
+      )
 
-        out_post_dir = site_dir / "posts" / slug
-        ensure_dir(out_post_dir)
-        (out_post_dir / "index.html").write_text(post_html, encoding="utf-8")
+      out_post_dir = site_dir / "posts" / slug
+      ensure_dir(out_post_dir)
+      (out_post_dir / "index.html").write_text(post_html, encoding="utf-8")
 
-        index_items.append({"slug": slug, "title": title, "date": date})
+      index_items.append({"slug": slug, "title": title, "date": date})
 
     (site_dir / "index.html").write_text(render_index(index_items), encoding="utf-8")
 

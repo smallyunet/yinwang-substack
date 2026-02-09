@@ -27,6 +27,26 @@
 ./.venv/bin/python scripts/fetch.py
 ```
 
+默认是“增量更新”：
+
+- 不会清空 `data/raw/`
+- 已经存在的 `posts/<slug>/post.json` + `body.html` 会复用（除非 `--force`）
+- 已经下载过的图片会直接走缓存（文件已存在则跳过）
+- 如果之前某篇有 `media_failures.json`，会在增量模式下自动重试失败媒体（可用 `--no-retry-failed-media` 关闭）
+
+常用参数：
+
+```bash
+# 强制重新抓取文章 JSON/HTML（但图片仍会复用缓存，除非 URL 变了）
+./.venv/bin/python scripts/fetch.py --force
+
+# 关闭增量：每篇都重新拉 post.json/body.html
+./.venv/bin/python scripts/fetch.py --no-incremental
+
+# 增量时遇到第一篇已抓取文章就停止（更快，但如果你本地数据有缺口可能会跳过）
+./.venv/bin/python scripts/fetch.py --stop-at-known
+```
+
 默认会：
 
 1) 拉取文章列表（archive API）到 `data/raw/archive.json`

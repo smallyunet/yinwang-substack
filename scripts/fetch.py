@@ -20,6 +20,7 @@ from _util import (
     http_get_json,
     make_session,
     polite_sleep,
+    read_json,
     sha256_hex,
     write_json,
 )
@@ -209,6 +210,25 @@ def main() -> None:
     ap.add_argument("--raw-dir", default="data/raw", help="raw data output dir")
     ap.add_argument("--limit", type=int, default=None, help="only fetch first N posts")
     ap.add_argument("--skip-media", action="store_true", help="do not download images")
+    ap.add_argument(
+        "--incremental",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="reuse existing data in raw-dir; only fetch missing posts (default: on)",
+    )
+    ap.add_argument(
+        "--retry-failed-media",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="when incremental, retry media only if media_failures.json exists (default: on)",
+    )
+    ap.add_argument(
+        "--stop-at-known",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="when incremental, stop once reaching the first already-fetched post (faster but may skip gaps)",
+    )
+    ap.add_argument("--force", action="store_true", help="re-fetch post json/html even if present")
     ap.add_argument("--quiet", action="store_true", help="suppress progress logs")
     args = ap.parse_args()
 
@@ -220,7 +240,36 @@ def main() -> None:
 
     log(f"[1/2] Fetching archive list from {cfg.base_url}...", quiet=args.quiet)
     archive_posts = fetch_archive(sess, cfg.base_url, timeout_s=cfg.timeout_s, limit=args.limit)
-    write_json(raw_dir / "archive.json", archive_posts)
+    archive_path = raw_dir / "archive.json"
+    if args.incremental and archive_path.exists():
+        try:
+            old = read_json(archive_path)
+        except Exception:
+            old = None
+        if isinstance(old, list):
+            merged: list[dict[str, Any]] = []
+            seen_slugs: set[str] = set()
+
+            def add_item(it: Any) -> None:
+                if not isinstance(it, dict):
+                    return
+                slug = it.get("slug")
+                if not isinstance(slug, str) or not slug:
+                    return
+                if slug in seen_slugs:
+                    return
+                seen_slugs.add(slug)
+                merged.append(it)
+
+            for it in archive_posts:
+                add_item(it)
+            for it in old:
+                add_item(it)
+            write_json(archive_path, merged)
+        else:
+            write_json(archive_path, archive_posts)
+    else:
+        write_json(archive_path, archive_posts)
     log(f"Archive posts: {len(archive_posts)}", quiet=args.quiet)
 
     total = len(archive_posts)
@@ -239,13 +288,35 @@ def main() -> None:
             post_json_path = post_dir / "post.json"
             body_html_path = post_dir / "body.html"
             media_dir = post_dir / "media"
+            media_map_path = post_dir / "media_map.json"
+            failures_path = post_dir / "media_failures.json"
 
-            post_url = f"{cfg.base_url}/api/v1/posts/{slug}"
-            post = http_get_json(sess, post_url, timeout_s=cfg.timeout_s)
-            write_json(post_json_path, post)
+            have_post = post_json_path.exists() and body_html_path.exists()
+            have_media_map = media_map_path.exists()
+            have_failures = failures_path.exists()
 
-            body_html = post.get("body_html") or ""
-            body_html_path.write_text(body_html, encoding="utf-8")
+            if args.incremental and have_post and (not args.force):
+                if args.skip_media:
+                    log("  incremental: post already exists, skipping", quiet=args.quiet)
+                    if args.stop_at_known:
+                        break
+                    continue
+                if have_media_map and ((not have_failures) or (not args.retry_failed_media)):
+                    log("  incremental: post/media already exists, skipping", quiet=args.quiet)
+                    if args.stop_at_known:
+                        break
+                    continue
+
+            if have_post and args.incremental and (not args.force):
+                post = read_json(post_json_path)
+                body_html = body_html_path.read_text(encoding="utf-8")
+            else:
+                post_url = f"{cfg.base_url}/api/v1/posts/{slug}"
+                post = http_get_json(sess, post_url, timeout_s=cfg.timeout_s)
+                write_json(post_json_path, post)
+
+                body_html = post.get("body_html") or ""
+                body_html_path.write_text(body_html, encoding="utf-8")
 
             if not body_html:
                 log("  body_html: empty (maybe paywalled or error)", quiet=args.quiet)
@@ -278,6 +349,13 @@ def main() -> None:
                 log(f"  media: found {len(image_urls)} image urls", quiet=args.quiet)
 
             media_map: dict[str, str] = {}
+            if media_map_path.exists():
+                try:
+                    existing_map = read_json(media_map_path)
+                    if isinstance(existing_map, dict):
+                        media_map.update({str(k): str(v) for k, v in existing_map.items()})
+                except Exception:
+                    pass
             failures: list[dict[str, str]] = []
             downloaded = 0
             cached = 0
@@ -316,7 +394,10 @@ def main() -> None:
 
             write_json(post_dir / "media_map.json", media_map)
             if failures:
-                write_json(post_dir / "media_failures.json", failures)
+                write_json(failures_path, failures)
+            else:
+                if failures_path.exists():
+                    failures_path.unlink()
 
             log(f"  media: downloaded {downloaded}, cached {cached}, failed {failed}", quiet=args.quiet)
             polite_sleep(cfg)
