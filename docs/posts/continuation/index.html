@@ -12,13 +12,11 @@
         <a class="home" href="../../">Home</a>
       </header>
       <main>
-        <h1>continuation 专项班结课</h1>
-        <p class="subtitle">2023-04-25</p>
-        <article class="post"><p>「continuation 专项班」昨天已经结课了。这是既第一届进阶班之后，我第二次讲授深入的 continuation 内容。从无到有，我们自己实现并且理解了 CPS，call/cc 和 shift/reset 的概念。其中还是包括了 cpser，也就是传说中功的“王垠 40 行代码” 😄。</p><p>学习了这些内容对于实际编程有什么用处呢？首先我们用很短的代码（只有 14 行），实际地实现并理解了操作系统的线程是怎么回事，并且用很短的代码（还是只有 14 行）实现了 cpser，它的本质其实是编译器的核心部分。</p><p>有人可能以为这些也许太底层系统了，但这些内容其实也可以帮助理解最流行的一些 JavaScript 特性，比如 promise/async/await 之类的。比如，我们会理解下面这段结果有点出乎意料的 JS async 代码是在做什么，并且有能力自己实现 JS 的 promise/async/await 机制。</p><p>var show = console.log;</p><p>async function fact(n)</p><p>{</p><p>  if (n == 0)</p><p>  {</p><p>    return 1;</p><p>  }</p><p>  else</p><p>  {</p><p>    return n * (await fact(n - 1));</p><p>  }</p><p>}</p><p>fact(5).then(show);</p><p>fact(2).then(show);</p><p>fact(3).then(show);</p><p>fact(1).then(show);</p><p>fact(4).then(show);</p><p>可以试试看，这代码得到什么结果？</p></article>
+                <h1>continuation 专项班结课</h1>
+                <div class="meta"><span class="meta-date">2023-04-25</span><a class="source-link" href="https://yinwang1.substack.com/p/continuation" target="_blank" rel="noopener noreferrer">原文链接</a></div>
+                <article class="post"><p>「continuation 专项班」昨天已经结课了。这是既第一届进阶班之后，我第二次讲授深入的 continuation 内容。从无到有，我们自己实现并且理解了 CPS，call/cc 和 shift/reset 的概念。其中还是包括了 cpser，也就是传说中功的“王垠 40 行代码” 😄。</p><p>学习了这些内容对于实际编程有什么用处呢？首先我们用很短的代码（只有 14 行），实际地实现并理解了操作系统的线程是怎么回事，并且用很短的代码（还是只有 14 行）实现了 cpser，它的本质其实是编译器的核心部分。</p><p>有人可能以为这些也许太底层系统了，但这些内容其实也可以帮助理解最流行的一些 JavaScript 特性，比如 promise/async/await 之类的。比如，我们会理解下面这段结果有点出乎意料的 JS async 代码是在做什么，并且有能力自己实现 JS 的 promise/async/await 机制。</p><p>var show = console.log;</p><p>async function fact(n)</p><p>{</p><p>  if (n == 0)</p><p>  {</p><p>    return 1;</p><p>  }</p><p>  else</p><p>  {</p><p>    return n * (await fact(n - 1));</p><p>  }</p><p>}</p><p>fact(5).then(show);</p><p>fact(2).then(show);</p><p>fact(3).then(show);</p><p>fact(1).then(show);</p><p>fact(4).then(show);</p><p>可以试试看，这代码得到什么结果？</p></article>
+                
       </main>
-      <footer class="footer">
-        <p>Generated 2026-02-09.</p>
-      </footer>
     </div>
   </body>
 </html>

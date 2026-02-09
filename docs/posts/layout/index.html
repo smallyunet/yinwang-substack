@@ -12,9 +12,9 @@
         <a class="home" href="../../">Home</a>
       </header>
       <main>
-        <h1>Indentation-based syntax considered troublesome</h1>
-        <p class="subtitle">2011-05-08</p>
-        <article class="post"><p>Although the idea of <a href="http://en.wikipedia.org/wiki/Off-side_rule">layout syntax</a>---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.</p><h3>It takes just one keystroke to produce a serious bug</h3><p>In most languages a program's format is determined by its meaning, but in a language with layout syntax, its meaning is determined by the format. This makes programs in layout syntax fragile because a tiny change in format could result in a serious error. For example, consider these two Python programs:</p><blockquote><pre><code># correct definition
+                <h1>Indentation-based syntax considered troublesome</h1>
+                <div class="meta"><span class="meta-date">2011-05-08</span><a class="source-link" href="https://yinwang1.substack.com/p/layout" target="_blank" rel="noopener noreferrer">原文链接</a></div>
+                <article class="post"><p>Although the idea of <a href="http://en.wikipedia.org/wiki/Off-side_rule">layout syntax</a>---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.</p><h3>It takes just one keystroke to produce a serious bug</h3><p>In most languages a program's format is determined by its meaning, but in a language with layout syntax, its meaning is determined by the format. This makes programs in layout syntax fragile because a tiny change in format could result in a serious error. For example, consider these two Python programs:</p><blockquote><pre><code># correct definition
 def member(x, ls):
     for y in ls:
         if x == y:
@@ -59,10 +59,8 @@ def member(x, ls):
                  x+y+z</code></pre></blockquote><p> Because the code becomes the following after the renaming, and the second line will no longer be aligned to "x = ...", and that confuses the parser.</p><blockquote><pre><code>hello z = let x = 1
                    y = 2 in
                  x+y+z</code></pre></blockquote><p> A similar thing happens when we lengthen the name to something like "helloworldcup". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above <code>let</code> expression.</p></li></ul><p>The interruption from re-indenting code is usually not just one or two seconds, but often tens of seconds, even minutes. The programmer has to put down real problems at hand and turn to the mind-dead re-indenting job. This disrupts the "flow", which is essential for producing creative and elegant code.</p><h3>Layout syntax considered harmful</h3><p>I believe that syntax, although an important aspect of natural languages, should not play a significant role in programming languages. It has already brought us too much trouble and frustration and wasted too much of our energy.</p><p>Syntax has prevented lots of new design possibilities in programming languages. You may have heard language designers say: "Hey this is a nice feature, but the syntax of my language hasn't any room left for it." Layout syntax pushes to this direction even more. It forces us to consciously and constantly think about syntax, drawing our attention away from semantics design. It poses certain constraints on how code must be formatted, and makes a language even less extensible. Thus I think layout syntax is the most troublesome type of syntax.</p></article>
+                
       </main>
-      <footer class="footer">
-        <p>Generated 2026-02-09.</p>
-      </footer>
     </div>
   </body>
 </html>
