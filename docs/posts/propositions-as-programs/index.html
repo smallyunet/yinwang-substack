@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Propositions as Programs</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="home" href="../../">Home</a>
+      </header>
+      <main>
+        <h1>Propositions as Programs</h1>
+        <p class="subtitle">2012-04-26</p>
+        <article class="post"><p>The <a href="http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence">Curry-Howard correspondence</a> says that propositions are types and proofs are programs. I had been wondering if there is a simpler way to think about it, so I came up with this:</p><blockquote><p>Propositions are programs; proofs are "abstract interpretation" of them to <code>True</code>.</p></blockquote><p>Here <code>True</code> is a meta-level truth value. A theorem prover is then an <em>abstract interpreter</em> which tries to evaluate the proposition to <code>True</code>. This computational process which derives <code>True</code> from the proposition is called a <em>judgment</em>.</p><p>Here I may have conflated the concept of abstract interpretation. I choose to use this term just because those two words "abstract" and "interpretation" convey the general idea that I hope to capture, but the term <em>abstract interpretation</em> here may not be what you used to think it is. I could have used <em>supercompilation</em>, but I don't think the word grasps the concept very well.</p><p>Anyway, this is a special kind of evaluation. It may be called <em>partial evaluation</em>, <em>supercompilation</em>, or some sort of <em>static analysis</em>, whatever you call it. It can also take human inputs interactively, as long as it is semantic-preserving -- it returns <code>True</code> whenever an actual interpreter would return <code>True</code>. But it is a lot more efficient because unlike normal interpreters, it takes shortcuts (induction hypotheses). If the program thus evaluates to <code>True</code>, then the proposition is proved.</p><p>This is much like fortune-telling. It quickly tells you the result that an actual interpreter would eventually give you after some time. It has a limited number of basic reduction operations such as <em>unfolding</em>, <em>induction</em> and <em>rewriting</em>, so we can record the reduction sequences as <em>proofs</em>, and we can verify them later on.</p><p>This seems to match what we have been doing with proof assistants like Coq. Comparing with Curry-Howard correspondence, this is possibly a more natural way of thinking about theorem proving.</p><p>The propositions in Coq are a little far-fetched to be called "types" of the proof terms. For example, we can have a proof term like</p><pre><code>fun (n' : nat) (IHn' : n' + 0 = n') =&gt; ...</code></pre><p>Is <code>n' + 0 = n'</code> the type of <code>IHn'</code>? Well, you have the freedom to call it a type, but this doesn't feel natural. What we want is just a way to <em>bind</em> an equation to a name, so that we can refer to it later. The semantics of type annotations, for example <code>IHn' : n' + 0 = n'</code> here, happen to make the required binding for us.</p><p>It feels better if we just think of propositions as programs with boolean return types, and think of the proof terms reduction sequences of them into <code>True</code>. If you take a look at the proof terms of Coq, you may find that this is the case. For example, take a look at this simple theorem and the tactics that prove it:</p><pre><code>Theorem plus_0_r : forall n : nat, n + 0 = n.
+Proof.
+  intros n. induction n as [| n'].
+  reflexivity.
+  simpl. rewrite -&gt; IHn'. reflexivity.  Qed.</code></pre><p>They produce the following proof term:</p><pre><code>plus_0_r = 
+fun n : nat =&gt;
+nat_ind (fun n0 : nat =&gt; n0 + 0 = n0) eq_refl
+  (fun (n' : nat) (IHn' : n' + 0 = n') =&gt;
+   eq_ind_r (fun n0 : nat =&gt; S n0 = S n') eq_refl IHn') n
+     : forall n : nat, n + 0 = n</code></pre><p>You may think of this proof term as a program with the theorem as its type, but you can also think of it as a <em>reduction sequence</em> of the program <code>n + 0 = n</code> to <code>True</code>, where <code>n</code> is a natural number. It is saying: "Do an induction where the first branch executes an equivalence judgment, and the other branch does an unfolding, a rewriting using the induction hypothesis, and an equivalence judgment." I think this way of thinking is much more natural.</p><p>This interpretation can also explain the operation of Boyer-Moore style theorem provers (ACL2), as this is almost exactly how they work.</p><p>You may have noticed that we have an important difference from the original Curry-Howard correspondence here:</p><blockquote><p>Proofs are no longer considered programs.</p></blockquote><p>At least proofs are not object-level programs. They are just reduction sequences in the abstract interpreter, which are at the meta-level. We can give this reduction sequence to an independent verifier so that it can replay the abstract interpretation and verify the correctness of the proof.</p><p>Alternatively, if you consider the verifier as an interpreter, then proofs are its input programs. In this sense, you can also say that <em>proofs are programs for the proof verifier</em>, and both propositions and proofs can be considered programs. But they are programs at two different semantic levels: the proofs are at a higher level than the propositions. This is quite different from Curry-Howard correspondence.</p><p>Thus, we have arrived at a unified way of thinking about two very different styles of theorem proving: Curry-Howard correspondence (as in Coq), and Boyer-Moore (as in ACL2).</p></article>
+      </main>
+      <footer class="footer">
+        <p>Generated 2026-02-09.</p>
+      </footer>
+    </div>
+  </body>
+</html>

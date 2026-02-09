@@ -1,0 +1,22 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/db421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/db421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/db421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/db421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/db421c35-c445-48a2-9adf-24c9d329bd68_1327x1327.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e89aff7f-a1b7-419d-be70-69986cf4426b_3001x1000.jpeg"
+  }
+]

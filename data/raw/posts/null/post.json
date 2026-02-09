@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/null",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530864,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2013-06-03T16:54:35.000Z",
+  "updated_at": "2022-11-19T10:55:29.060Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "null",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "Null reference may not be a mistake",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "const",
+  "next_post_slug": "psydiff",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!abgd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "The null pointer is considered to be a \"billion-dollar mistake\".",
+  "body_html": "<a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!abgd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!abgd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 424w, https://substackcdn.com/image/fetch/$s_!abgd!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 848w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1272w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!abgd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;null&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"null\" title=\"null\" srcset=\"https://substackcdn.com/image/fetch/$s_!abgd!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 424w, https://substackcdn.com/image/fetch/$s_!abgd!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 848w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1272w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p>The null pointer is considered to be a \"<a href=\"http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare\">billion-dollar mistake</a>\". I have been wondering why there is such a notion until I saw the&nbsp;<a href=\"http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare\">video</a> where Tony Hoare claims it to be his mistake. In fact, he didn't really say that null pointer should not be used.</p><p>From this video, you can see that&nbsp;<em>introducing</em> null reference is not really a mistake. On the contrary, null references are helpful and sometimes indispensable. The mistake is not in the <em>existence</em>&nbsp;of the null pointers, but in how the type system treats&nbsp;them. Unfortunately, most languages (C++, Java, C#, ...) don't treat&nbsp;them correctly.</p><p>Every class type <code>A</code> of Java is in fact a <em>union type</em> <code>{A, null}</code>, because you can use null where an A object&nbsp;is expected. {A, null} is almost equivalent to the Maybe type of Haskell, where null corresponds to <code>Nothing</code> of Haskell. So the trouble really is that an annotation like <code>{String, null}</code> should be distinguished from&nbsp;<code>String</code>, so that it will be clear whether null&nbsp;can possibly be&nbsp;its value.</p><p>Unfortunately most languages don't provide a convenient union type that you can put <code>String</code> and <code>null</code> together (<a href=\"http://docs.racket-lang.org/ts-guide/\">Typed&nbsp;Racket</a> is an exception). If Java is to have union types, we can say something like:</p><pre><code>{String, null} find1() {\n  if (...) {\n    return \"okay\";\n  } else {\n    return null;\n  }\n}</code></pre><p>This is saying: <code>find1</code>&nbsp;may return a name which is a <code>String</code>, or it may return <em>nothing</em>. Because of the union type&nbsp;<code>{String, null}</code>, the type system knows that you should check for null when you have called <code>find(),</code>&nbsp;so it will force you to write a null check:</p><pre><code>String s = find();  \nif (s != null) {\n  x = s.length();\n}</code></pre><p>In comparison, if we define a&nbsp;slightly different function find2, with a different return type:</p><pre><code>String find2() {\n    ...\n    return \"okay\";\n}</code></pre><p>From the return type we know that&nbsp;find2&nbsp;will never return null, so the type checker can let you you use the String without checking:</p><pre><code>String s = find();\nx = s.length();\n</code></pre>",
+  "truncated_body_text": "The null pointer is considered to be a \"billion-dollar mistake\". I have been wondering why there is such a notion until I saw the video where Tony Hoare claims it to be his mistake. In fact, he didn't really say that null pointer should not be used.",
+  "wordcount": 340,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        36,
+        140,
+        221
+      ],
+      "population": 345
+    },
+    "DarkVibrant": {
+      "rgb": [
+        28,
+        108,
+        172
+      ],
+      "population": 3652
+    },
+    "LightVibrant": {
+      "rgb": [
+        156,
+        204,
+        236
+      ],
+      "population": 12
+    },
+    "Muted": {
+      "rgb": [
+        20.561264822134383,
+        83.4545454545454,
+        132.43873517786562
+      ],
+      "population": 0
+    },
+    "DarkMuted": {
+      "rgb": [
+        21.42000000000002,
+        82.61999999999998,
+        131.57999999999998
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        24.63559322033899,
+        86.8728813559322,
+        128.364406779661
+      ],
+      "population": 0
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

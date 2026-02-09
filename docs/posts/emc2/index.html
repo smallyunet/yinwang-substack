@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E ≠ mc^2</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="home" href="../../">Home</a>
+      </header>
+      <main>
+        <h1>E ≠ mc^2</h1>
+        <p class="subtitle">2022-12-14</p>
+        <article class="post"><p>前段时间发现的各种问题，大概率地说明爱因斯坦的相对论是基于错误的，未经实验证实的前提：相对光速不变。相对论支持者们刻意选择了那些能支持相对论的实验结果，而忽视所有与之不符的实验（Miller, Sagnac, Munera 等），用各种借口忽略它们。这不是科学。</p><p>我之前在博客发布的那篇《<a href="http://www.yinwang.org/blog-cn/2022/10/09/relativity">相对论推导练习</a>》，其实就是基于这个更新后的认识。如果相对光速并不是不变的，而是和牛顿力学的相对速度原则一致，会随着观察者的运动而改变，那么接近光速的物体应该产生什么样的现象？有些聪明的物理专业人士可能已经发现了，我提供的练习最后推导出来的公式，和「多普勒公式」一模一样。</p><p>根据这个“新相对论公式”，我阅读并重新推导了爱因斯坦的 E = mc^2 论文。</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" data-component-name="Image2ToDOM" href="https://substackcdn.com/image/fetch/$s_!JzEX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg" target="_blank"><div class="image2-inset"><picture><source sizes="100vw" srcset="https://substackcdn.com/image/fetch/$s_!JzEX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 424w, https://substackcdn.com/image/fetch/$s_!JzEX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 848w, https://substackcdn.com/image/fetch/$s_!JzEX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!JzEX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg 1456w" type="image/webp"><img alt="" class="sizing-normal" data-attrs='{"src":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/1d63f993-a5d6-4640-9107-e6548310d3b5_1120x1493.jpeg","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":1493,"width":1120,"resizeWidth":429,"bytes":258750,"alt":null,"title":null,"type":"image/jpeg","href":null,"belowTheFold":false,"topImage":true,"internalRedirect":null,"isProcessing":false,"align":null,"offset":false}' fetchpriority="high" height="571.8723214285715" src="../../assets/posts/emc2/7b7f6e7304d80d4c.jpg" width="429"/></source></picture><div class="image-link-expand"><div class="pencraft pc-display-flex pc-gap-8 pc-reset"><button class="pencraft pc-reset pencraft icon-container restack-image" tabindex="0" type="button"><svg fill="none" height="20" role="img" stroke="var(--color-fg-primary)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" style="height:20px;width:20px" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><g><title></title><path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path></g></svg></button><button class="pencraft pc-reset pencraft icon-container view-image" tabindex="0" type="button"><svg class="lucide lucide-maximize2 lucide-maximize-2" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></button></div></div></div></a></figure></div><p>因为这篇论文的前提是错误的相对论，所以它应该也是错的，E ≠ mc^2。那么 E 应该等于多少呢？使用“新相对论公式”，我得到的结果让人惊讶：E = E。</p><p>也就是说，能量和质量并没有关系。物体有多少能量，它就有多少能量，你不能把很少的质量转换为巨大的能量。这意味着什么呢？自己去想 ;=)</p></article>
+      </main>
+      <footer class="footer">
+        <p>Generated 2026-02-09.</p>
+      </footer>
+    </div>
+  </body>
+</html>

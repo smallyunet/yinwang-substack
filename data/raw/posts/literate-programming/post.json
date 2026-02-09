@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/literate-programming",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530843,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2011-05-18T20:29:56.000Z",
+  "updated_at": "2022-11-19T10:55:27.697Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "literate-programming",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "On literate programming",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "layout",
+  "next_post_slug": "sum",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!Z72q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "A friend and I had a discussion about the current trends of programming methodologies.",
+  "body_html": "<p>A friend and I had a discussion about the current trends of programming methodologies. At some point, the topic turned to Literate Programming (LP). I personally have written a non-trivial literate program (in CWEB) a few years back, but like many other people, I did not persevere. As a hindsight, there are some good reasons why people do not adopt LP.</p><h3>Missing the big picture</h3><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Z72q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Z72q!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Z72q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Z72q!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 424w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 848w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!Z72q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F224c13ea-6347-4e0b-a585-64204fda2e2a_320x240.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p>Although we love books, they may not be the best medium for documenting programs. Programs are much like circuits or cars. They are very complex systems with interconnected parts. The interactions and constraints among the parts can't really be understood when they are taken apart.</p><p>LP systems usually segments the program into small pieces and rearrange them into a book-like order. This is like taking a car apart when teaching car-making. There is a huge loss of structural information in this rearrangement. It may be useful to take some parts out for explanations and experiments, but they should be placed back immediately after examination. The student must have a clear view of the overall structure of the car.</p><p>If we take all the parts out and lay them along the road, the student would have trouble figuring out how they would fit and work together. In short, the student see trees and not the forest when reading a book generated by Literate Programs.</p><h3>Programs are not text</h3><p>LP systems usually allow programmers to fragment a program into small pieces, reorder the pieces into an order that is \"convenient to the human mind\". Later on, a program (weave) generates printable documentation for the program; another program (tangle) assembles the fragments into machine-executable code.</p><p>However, these systems have a big problem -- treating programs as text. LP systems usually don't parse the programs. They just segment the code textually. This often messes up the variable scopes and causes subtle bugs. This is much like macros in early Lisps and C, extremely dangerous and error-prone.</p><p>There are other kinds of LP systems such as Literate Haskell, CoffeeScript etc. They don't break up the procedures and don't have the above \"hygiene problem\". But because we already have the freedom to rearrange the order of procedures in any programming language, those systems are nothing more than a fancy comment facility like JavaDoc. In views of authentic literate programmers, those systems miss the essence of LP.</p><h3>Human supremacy, human languages and human cognition</h3><p>LP systems rely their arguments on a biased&nbsp;belief in human supremacy, an overemphasis in human languages, and a misunderstanding of human cognition. Practice has shown that the human brain is incapable of competing with computers in anything that requires rigorous reasoning and perseverance. Natural languages are woefully inaccrurate and confusing for programming. Programming languages that tries to mimic natural languages are&nbsp;doomed to suffer the same \"design flaws\" of natural languages (for example COBOL and SQL).</p><p>It is also doubtful whether the order set by literate programming is suitable for human cognition at all. Programs should be constructed in an order that matches the <em>nature</em> of the concept it models, and not in the order of a particular person's way of thinking, nor in the arbitrary order set by a compiler. Once the program structure matches nature, it will immediately appeal to human understanding.</p><p>So instead of investing in LP, a probably better direction is to investigate better ways of representing programs that enable them to match the concepts more naturally. Functional Programming and Logic Programming are gradually moving toward this direction.</p><h3>Painful code navigation</h3><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!T0cJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!T0cJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 424w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 848w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!T0cJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!T0cJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 424w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 848w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!T0cJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3920c1d-2f89-432d-a68b-b21c31e5ae14_250x187.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a><p>Once the code is weaved into a book, it will be very hard to navigate through. Several years ago, I spent some time reading Knuth's <em>MMIXware</em>, a book generated from a CWEB program. I noticed how much time I spent on finding definitions and cross-references of variables. Although Knuth painstakingly constructed an index for the book, obviously I still had to turn hundreds of pages back and forth, while in IDEs I can jump to the definition of a variable with just one keystroke. One should wonder why we bother publishing code as books at all. Use an IDE and save the trees! :)</p><p>From these observations, it is really unclear how literature and books can serve as a good medium for programs. The world has changed and technology advanced, instead of pursuing something static and classic, we may just need to open our minds to new kinds of media.</p>",
+  "truncated_body_text": "A friend and I had a discussion about the current trends of programming methodologies. At some point, the topic turned to Literate Programming (LP). I personally have written a non-trivial literate program (in CWEB) a few years back, but like many other people, I did not persevere. As a hindsight, there are some good reasons why people do not adopt LP.",
+  "wordcount": 738,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        171,
+        52,
+        64
+      ],
+      "population": 68
+    },
+    "DarkVibrant": {
+      "rgb": [
+        119,
+        42,
+        47
+      ],
+      "population": 177
+    },
+    "LightVibrant": {
+      "rgb": [
+        180,
+        188,
+        220
+      ],
+      "population": 460
+    },
+    "Muted": {
+      "rgb": [
+        165,
+        102,
+        119
+      ],
+      "population": 118
+    },
+    "DarkMuted": {
+      "rgb": [
+        45,
+        54,
+        63
+      ],
+      "population": 420
+    },
+    "LightMuted": {
+      "rgb": [
+        161,
+        171,
+        204
+      ],
+      "population": 236
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

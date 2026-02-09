@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/pysonar",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530844,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2010-09-12T21:08:38.000Z",
+  "updated_at": "2022-11-19T10:55:27.878Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "pysonar",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "PySonar: a type inferencer and indexer for Python",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "linux-mem",
+  "next_post_slug": "unix",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!4JNQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "PySonar is a type inferencer and indexer for Python.",
+  "body_html": "<a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4JNQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4JNQ!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 424w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 848w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 1272w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4JNQ!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;pysonar2&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"pysonar2\" title=\"pysonar2\" srcset=\"https://substackcdn.com/image/fetch/$s_!4JNQ!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 424w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 848w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 1272w, https://substackcdn.com/image/fetch/$s_!4JNQ!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58e0a3ec-a43e-4659-a702-7aa11b80f3e9_500x384.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p>PySonar is a type inferencer and indexer for Python. It&nbsp;includes a powerful type system and a sophisticated inter-procedural&nbsp;analysis.&nbsp;Compared to style-checking tools or IDEs, PySonar analyzes programs in deeper ways and produces more accurate results. PySonar&nbsp;resolves more names than typical IDEs. The current resolution rate is about 97% for Python's standard library.</p><h3>Demos</h3><p>To get a quick feel about what PySonar can do, here is a&nbsp;<a href=\"http://www.yinwang.org/resources/demos/pysonar2/email/header.py.html\">sample analysis result</a>&nbsp;for a small fraction of Python's standard library.</p><h3>What's in there</h3><ol><li><p><strong>A powerful type system.&nbsp;</strong>In addition to the usual types you can find in programming languages, PySonar's type system has&nbsp;<em>union types</em>&nbsp;and <em>intersection types --&nbsp;</em>two of the most powerful elements I have found during my PL research. They are rarely found in programming languages. I know of only two languages with statically checked union types: <a href=\"http://docs.racket-lang.org/ts-guide/beginning.html#%28part._.Datatypes_and_.Unions%29\">Typed Racket</a>&nbsp;and&nbsp;<a href=\"http://ceylon-lang.org/documentation/1.0/tour/types\">Ceylon</a>. Different from these languages, PySonar can work without any type annotations. It infers all the types by doing inter-procedural analysis.</p></li><li><p><strong>Control-flow aware interprocedural analysis</strong>.&nbsp;Because Python has very dynamic and polymorphic semantics and doesn't contain type annotations, a&nbsp;modular&nbsp;type inference system such as the <a href=\"http://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system\">Hindley-Milner system</a> will not work. I actually implemented a HM-like system in the first version of PySonar, but it didn't work well. As a consequence, all types are inferred by an inter-procedural analysis which follows the control-flow and some other aspects of the semantics.</p></li><li><p><strong>Handling of Python's dynamism.&nbsp;</strong>Static analysis for Python is hard because it has many dynamic features. They help make programs concise and flexible, but they also make automated reasoning about Python programs hard. Some of these features can be reasonably handled but some others not. For code that are undecidable, PySonar attempts to report all known possibilities. For example, it&nbsp;can&nbsp;infer&nbsp;union types which contains all possible types it can possibly have:</p></li><li><p><strong>High accuracy semantic indexing</strong> PySonar can build code indexes that respects scopes and types. Because it performs inter-procedural analysis, it is often able to find the definitions of attributes inside function parameters. This works across functions, classes and modules. The following image shows that it can accurately locate the field <code>x.z</code> which refers to the \"z\" fields in classes <code>B1</code> and <code>C1</code>, but not <code>A1</code>.</p><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4I8o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4I8o!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 424w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 848w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 1272w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4I8o!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4I8o!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 424w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 848w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 1272w, https://substackcdn.com/image/fetch/$s_!4I8o!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F26e33ba2-40d3-42b0-bb0c-7fdabcbcae5b_654x367.png 1456w\" sizes=\"100vw\"></picture><div></div></div></a></li></ol><h3>Availability</h3><p>The code is open source from&nbsp;my <a href=\"https://github.com/yinwang0\">GitHub repository</a>.</p><h3>Users</h3><p>Here are some of&nbsp;PySonar's&nbsp;users:</p><ul><li><p><strong>Google</strong>. Google uses PySonar 1.0 to index millions of lines of Python code, serving internal code search and analysis services such as Grok and Code Search</p></li><li><p><strong><a href=\"http://www.sourcegraph.com\">SourceGraph</a></strong>. SourceGraph is a semantic code search engine. They use PySonar to index hundreds of thousands of opensource Python repositories. They started using PySonar 1.0 as the Python analysis for their site. I recently joined them and finished integrating PySonar 2.0</p></li></ul>",
+  "truncated_body_text": "PySonar is a type inferencer and indexer for Python. It includes a powerful type system and a sophisticated inter-procedural analysis. Compared to style-checking tools or IDEs, PySonar analyzes programs in deeper ways and produces more accurate results. PySonar resolves more names than typical IDEs. The current resolution rate is about 97% for Python's …",
+  "wordcount": 455,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        238.22368421052627,
+        238.22368421052633,
+        16.77631578947368
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        123.87631578947367,
+        123.8763157894737,
+        8.723684210526315
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        250,
+        250,
+        184
+      ],
+      "population": 9
+    },
+    "Muted": {
+      "rgb": [
+        148,
+        188,
+        196
+      ],
+      "population": 1
+    },
+    "DarkMuted": {
+      "rgb": [
+        142.93421052631575,
+        142.93421052631578,
+        10.065789473684214
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        176,
+        204,
+        212
+      ],
+      "population": 8
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

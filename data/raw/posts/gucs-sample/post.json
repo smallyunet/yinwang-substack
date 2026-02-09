@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/gucs-sample",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85531012,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2021-05-10T20:00:31.000Z",
+  "updated_at": "2022-11-19T10:56:26.531Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "gucs-sample",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "My new book: Ground-Up Computer Science",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 1
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "professional-amateur",
+  "next_post_slug": "eq",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!ERXm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "I have been teaching online computer science lessons for some time.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ERXm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ERXm!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 424w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 848w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ERXm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ERXm!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 424w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 848w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!ERXm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F98245f68-9322-4765-9db6-355503993dd9_215x300.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a></figure></div><p>I have been teaching online computer science lessons for some time. Recently I'm writing a new introductory book to computer science. I have finished six chapters so far. You may download the first draft chapter here: <a href=\"https://www.yinwang.org/resources/gucs-sample-chapter1.pdf\">gucs-sample-chapter1</a>.</p><p>Welcome to share the link to others, but please don't copy the file to your own website.</p><p>The following is the preface. I hope it explains well why I decided to write this book. Welcome to write me emails if you have questions or suggestions about the book. My email address can be found in the book. I hope this book can help more people to get into the field or just enjoy it as a hobby.</p><p><strong>Preface</strong></p><p>This is an introductory book to computer science. Based on experience of teaching computer science to complete beginners and professionals, it is for people who hope to understand computer science at a deep level but have found no good place to start.</p><p>Many computer science introductory books have been written, but they are often not written with complete beginners in mind. Deep books often have hidden assumptions of the reader's prior knowledge, so they are likely to get frustrated and give up. Friendlier books often don't go deep, so readers only get to the surface. It is very hard to balance between depth and progress.</p><p>This book is written after extensive experiments on real beginners. Its contents and method are developed and tested with beginners to make sure they can practically grasp the important concepts without much struggle. Effort is needed but no effort is wasted. No prior experience of computer science or math is required. The hope is to guide people through the maze of computer science knowledge, reaching a clear and simple vision of its most important and profound principles.</p>",
+  "truncated_body_text": "I have been teaching online computer science lessons for some time. Recently I'm writing a new introductory book to computer science. I have finished six chapters so far. You may download the first draft chapter here: gucs-sample-chapter1.",
+  "wordcount": 297,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        230,
+        175,
+        123
+      ],
+      "population": 9
+    },
+    "DarkVibrant": {
+      "rgb": [
+        111.48535031847135,
+        65.03312101910826,
+        21.114649681528658
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        194,
+        144
+      ],
+      "population": 4
+    },
+    "Muted": {
+      "rgb": [
+        128.63694267515925,
+        75.03821656050954,
+        24.36305732484076
+      ],
+      "population": 0
+    },
+    "DarkMuted": {
+      "rgb": [
+        128.63694267515925,
+        75.03821656050954,
+        24.36305732484076
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        220,
+        204,
+        188
+      ],
+      "population": 4
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 1,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

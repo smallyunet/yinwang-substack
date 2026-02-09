@@ -1,0 +1,10 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a22948-4cb7-4c92-bddc-7286fe1941a3_4032x3024.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57a22948-4cb7-4c92-bddc-7286fe1941a3_4032x3024.jpeg'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F597da882-b3e5-4bc5-b2f3-149cffbacd02_4032x3024.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F597da882-b3e5-4bc5-b2f3-149cffbacd02_4032x3024.jpeg'"
+  }
+]

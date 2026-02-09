@@ -1,0 +1,267 @@
+{
+  "audience": "only_paid",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/6cf",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 140817958,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2024-01-18T21:15:58.300Z",
+  "updated_at": "2024-09-05T03:28:06.631Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "6cf",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "数学对函数的误解",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "none",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 5
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "lambda-calculus-b53",
+  "next_post_slug": "099",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!M9MJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "基础班上有时候会有同学觉得第一课关于函数的内容很难理解。经过针对性的研究，我发现他们很多是受到了曾经学过的数学的干扰。",
+  "body_html": "<p>基础班上有时候会有同学觉得第一课关于函数的内容很难理解。经过针对性的研究，我发现他们很多是受到了曾经学过的数学的干扰。</p><p>最开头学数学的时候，数学老师总是讲函数就是 y = x^2 + 3x 这样的东西。到后来不知什么时候，数学老师又说函数是 f(x) = x^2 + 3x 这样的东西…… 到现在我这里又重新来一遍，就糊涂了。</p><p>于是我又想起之前看过的一个逻辑学家的论文，他的名字叫 Gottlob Frege。他写过一篇论文叫《What is a Function？》。在这篇文章里，Frege 指出了数学里使用函数的方式的错误，写成 y = x^2 + 3x 那种写法的问题。这篇文章发表于1904年，可是数学教学到今天都还没改过来。</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!M9MJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!M9MJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 424w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 848w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!M9MJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg\" width=\"472\" height=\"182.70967741935485\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:300,&quot;width&quot;:775,&quot;resizeWidth&quot;:472,&quot;bytes&quot;:220475,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!M9MJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 424w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 848w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!M9MJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89956d5c-87b2-4197-ac34-c01043030f44_775x300.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a></figure></div><p>因为这个问题，数学变得不必要的困难。特别是遇到微积分的时候，这种函数表达就更加…</p>",
+  "truncated_body_text": "基础班上有时候会有同学觉得第一课关于函数的内容很难理解。经过针对性的研究，我发现他们很多是受到了曾经学过的数学的干扰。",
+  "wordcount": 39,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        126.60839160839163,
+        126.60839160839163,
+        128.39160839160837
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        65.83636363636364,
+        65.83636363636364,
+        66.76363636363635
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        188.23636363636362,
+        188.23636363636362,
+        189.16363636363636
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        139,
+        139,
+        139
+      ],
+      "population": 260
+    },
+    "DarkMuted": {
+      "rgb": [
+        68,
+        68,
+        68
+      ],
+      "population": 36
+    },
+    "LightMuted": {
+      "rgb": [
+        183,
+        183,
+        184
+      ],
+      "population": 212
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 104190928,
+      "name": "Yin Wang",
+      "handle": "yinwang1",
+      "previous_name": "Ian",
+      "photo_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/7b94063f-2bb8-49de-9249-49485a456a5c_459x459.jpeg",
+      "bio": null,
+      "profile_set_up_at": "2022-09-14T03:31:24.180Z",
+      "reader_installed_at": "2022-09-22T03:27:06.206Z",
+      "publicationUsers": [
+        {
+          "id": 1036676,
+          "user_id": 104190928,
+          "publication_id": 1087182,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 1087182,
+            "name": "垠的备忘录",
+            "subdomain": "yinwang1",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "我的想法（中文版）",
+            "logo_url": null,
+            "author_id": 104190928,
+            "primary_user_id": 104190928,
+            "theme_var_background_pop": "#FF81CD",
+            "created_at": "2022-09-14T03:32:09.078Z",
+            "email_from_name": "Yin Wang",
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "enabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false
+          }
+        },
+        {
+          "id": 1157399,
+          "user_id": 104190928,
+          "publication_id": 1202571,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 1202571,
+            "name": "Yin’s Memos",
+            "subdomain": "yinwang0",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "my thoughts (in English)",
+            "logo_url": null,
+            "author_id": 104190928,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#786CFF",
+            "created_at": "2022-11-20T03:46:17.299Z",
+            "email_from_name": null,
+            "copyright": "Ian",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 5,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 140817958,
+      "voice_id": "en-US-AvaMultilingualNeural",
+      "audio_url": null,
+      "type": "tts",
+      "status": "paywalled"
+    }
+  ],
+  "is_geoblocked": false,
+  "hidden": true,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

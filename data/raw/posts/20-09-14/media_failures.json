@@ -1,0 +1,12 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg",
+    "error": "SSLError: HTTPSConnectionPool(host='bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com', port=443): Max retries exceeded with url: /public/images/a05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a05f23f0-117f-4b28-94c0-3f9f4619309a_4032x3024.jpeg"
+  }
+]

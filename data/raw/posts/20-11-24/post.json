@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/20-11-24",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85532417,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2020-11-24T18:27:00.000Z",
+  "updated_at": "2022-11-19T11:07:04.184Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "20-11-24",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "素描与机器视觉",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "ios",
+  "next_post_slug": "20-12-01",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!5eOR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "对「基于现有视觉技术的自动驾驶」还存在希望的人们都应该学一下素描。你会发现素描最简单的原理就能推翻现有的所有机器视觉技术。",
+  "body_html": "<p>对「基于现有视觉技术的自动驾驶」还存在希望的人们都应该学一下素描。你会发现素描最简单的原理就能推翻现有的所有机器视觉技术。</p><p>最开头画了几根线，是没有立体感的，然后按光的传播规律加上阴影和明暗变化，就有了立体感。素描就是靠着阴影使得人类视觉系统产生空间立体模型，每一个微妙的起伏都可以清晰地还原出来。只有靠 3D 视觉准确识别出物体的边界，才可能产生可靠的运动能力（包括开车）。</p><p>没有了阴影，也就没有了 3D 视觉。现有的机器视觉技术完全不知道阴影的存在，更不要说利用它，又如何能实现人类一样的视觉呢？试想让机器视觉完成这个简单的实验：把图片里的阴影标记出来，准确地区分开阴影和实体的图像。这一点都做不到的话，就别想达到人（动物）的视觉系统能力了。</p><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!5eOR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!5eOR!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 424w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 848w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!5eOR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!5eOR!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 424w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 848w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!5eOR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5a7dac1-f193-4288-96f8-0cda5ec25264_1420x1614.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a>",
+  "truncated_body_text": "对「基于现有视觉技术的自动驾驶」还存在希望的人们都应该学一下素描。你会发现素描最简单的原理就能推翻现有的所有机器视觉技术。",
+  "wordcount": 7,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        160.08333333333334,
+        114.75000000000001,
+        94.91666666666667
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        83.24333333333333,
+        59.67000000000001,
+        49.356666666666676
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        205.64333333333332,
+        182.07000000000002,
+        171.75666666666666
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        149,
+        124,
+        108
+      ],
+      "population": 5
+    },
+    "DarkMuted": {
+      "rgb": [
+        75,
+        67,
+        64
+      ],
+      "population": 39
+    },
+    "LightMuted": {
+      "rgb": [
+        188,
+        156,
+        142
+      ],
+      "population": 286
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e4ecd09-17b9-4fb7-9486-f304e5575e83_1125x1800.png",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e4ecd09-17b9-4fb7-9486-f304e5575e83_1125x1800.png'"
+  }
+]

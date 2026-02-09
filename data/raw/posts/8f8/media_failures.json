@@ -1,0 +1,42 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef401928-dae6-4c5b-a8b0-f948bf207d07_1666x1000.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0876446-8925-461c-881c-c94de1df7f16_1055x1000.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1b38471-6e6c-40dd-991f-3d56f72e1cb1_1323x1000.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4a4fb31a-3270-44ab-a14d-7cb997c2a43e_2388x1668.jpeg"
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/layout",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530848,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2011-05-08T17:29:56.000Z",
+  "updated_at": "2022-11-19T10:55:27.607Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "layout",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "Indentation-based syntax considered troublesome",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "unix",
+  "next_post_slug": "literate-programming",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!q-jd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Although the idea of layout syntax---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.",
+  "body_html": "<p>Although the idea of <a href=\"http://en.wikipedia.org/wiki/Off-side_rule\">layout syntax</a>---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think&nbsp;this kind of syntax brings more trouble than benefits.</p><h3>It takes just one keystroke to produce a serious bug</h3><p>In most languages a program's format is determined by its meaning, but in a language with layout syntax, its meaning is determined by the format. This makes programs in layout syntax fragile because a tiny change in format could result in a serious error. For example, consider these two Python programs:</p><blockquote><pre><code># correct definition\ndef member(x, ls):\n    for y in ls:\n        if x == y:\n            return True\n    return False         # correct indentation</code></pre><pre><code># incorrect definition\ndef member(x, ls):\n    for y in ls:\n        if x == y:\n            return True\n        return False     # incorrect indentation</code></pre></blockquote><p>The second definition has been \"derived\" from the first by an inadvertent TAB key, which indented the return statement one more level to the right. While the two definitions differ only in one indentation, they produce totally different results.</p><p>Although this is just a minimal example, the bug may take quite some time to show up and be fixed. In order to prevent this kind of bugs from happening, I often find myself moving the cursor up-and-down in a straight line to check the alignment of the statements.</p><p>Let's see why this bug cannot happen in a language which does not use layout syntax. We now invent an alternative syntax for Python, so that the pervious program looks like:</p><blockquote><pre><code>def member(x, ls) {\n    for y in ls {\n        if x == y {\n            return True\n        }\n    }\n    return False\n}</code></pre></blockquote><p>Given the correct definition, can you imagine how you could reproduce the bug with just one keystroke? It is almost impossible. To see why:</p><ol><li><p>The return statement can never get into the loop with a change in indentation.</p></li><li><p>It takes at least <em>two edits</em> and <em>one movement</em> in the editor to move the return statement into the loop. There are two alternatives to choose from:</p><ul><li><p>Cut <code>return False</code>. Move the cursor into the closing curly brace of the for-loop. Paste.</p></li><li><p>Delete the closing curly brace of the for-loop. Move the cursor beyond <code>return False</code>. Insert an closing curly brace.</p></li></ul></li></ol><p>Either way, you must be <em>deliberate</em> and <em>precise</em> in order to reproduce the bug. Otherwise the parser would have complained (for example, if you just delete a closing curly brace).</p><p>However, the situation is very different with layout syntax, where one TAB key press produces the same amount of change as the above three operations. The change happens quickly and the program remains grammatically correct, obscuring the presence of a bug.</p><p>The situation is a little better for Haskell, because incorrect indentations often cause type errors and the programmer will be alerted, but fundamentally the problem still exists.</p><h3>Unconvincing advantages</h3><p>It is often claimed that layout syntax has the following advantages over curly braces:</p><ul><li><p>Your programs become a lot shorter because less curly braces are used.</p></li><li><p>You write less clutter such as curly braces and semicolons, and that beautifies your code.</p></li></ul><p>I found that neither of the two advantages convincing. For the first part, Python and Haskell programs are indeed several times shorter than equivalent Java or C programs, but this cannot really be creditted to layout syntax.</p><p>We need to have some blank lines even in a Python or Haskell program, between definitions and sometimes in the middle of a block. The blank lines naturally denote groups of statements. So if we count the number of additional lines introduced by curly braces, we will find that there aren't many. Curly braces also naturally denote statement groups, so not only they don't look bad, they are helpful.</p><p>In Python and Haskell, it is the <em>semantic</em> features (pattern matching, first-class functions etc.) that make the programs short, not layout syntax. If we had an alternative syntax of Java which uses layout, then Java programs would still be several times longer than equivalent Scala programs. Java programs are longer not because they use curly braces, but because they don't have things such as first-class functions, so they have to use some tedious design patterns.</p><p>Second, layout syntax does not really save \"clutter\". Even in a language with layout syntax, we may still need to write almost the same amount of (if not more) clutter. The following is a random piece of code taken from the current release of GHC. We can still see lots of curly braces and semicolons in it. I guess layout syntax actually caused trouble, so the authors of GHC decided that they will just write curly braces.</p><blockquote><pre><code>tcInstanceMethodBody skol_info tyvars dfun_ev_vars\n                     meth_id local_meth_id\n             meth_sig_fn specs\n                     (L loc bind)\n  = do  {       -- Typecheck the binding, first extending the envt\n        -- so that when tcInstSig looks up the local_meth_id to find\n        -- its signature, we'll find it in the environment\n          let lm_bind = L loc (bind { fun_id = L loc (idName local_meth_id) })\n                             -- Substitute the local_meth_name for the binder\n                 -- NB: the binding is always a FunBind\n; (ev_binds, (tc_bind, _))\n               &lt;- checkConstraints skol_info tyvars dfun_ev_vars $\n          tcExtendIdEnv [local_meth_id] $\n              tcPolyBinds TopLevel meth_sig_fn no_prag_fn\n                 NonRecursive NonRecursive\n                 [lm_bind]\n; let full_bind = AbsBinds { abs_tvs = tyvars, abs_ev_vars = dfun_ev_vars\n                                   , abs_exports = [(tyvars, meth_id, local_meth_id, specs)]\n                                   , abs_ev_binds = ev_binds\n                                   , abs_binds = tc_bind }\n; return (L loc full_bind) }\n  where\n    no_prag_fn  _ = []      -- No pragmas for local_meth_id;\n                        -- they are all for meth_id</code></pre></blockquote><h3>Better ways to save clutter</h3><p>Even if we do hate curly braces, there are better ways to reduce or even completely eliminate them. For a trivial \"solution\", we could just use a dim color for curly braces and semicolons in the editor, so that they are less noticeable.</p><p>Better still, we could use a <em>structural editor</em> that lets us manipulate the AST (abstract syntax tree) directly. Those editors could provide several options of denoting blocks. You can switch between colored blocks, curly braces, or nothing at all. You can switch the look of your code at any time, instantly. People have implemented such editors, for example <a href=\"http://blogs.msdn.com/b/kirillosenkov/archive/2009/09/08/first-videos-of-the-structured-editor-prototype.aspx\">this editor</a> designed by Kirill Osenkov.</p><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!q-jd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!q-jd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 424w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 848w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 1272w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!q-jd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;Structural Editor by Kirill Osenkov&quot;,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"Structural Editor by Kirill Osenkov\" srcset=\"https://substackcdn.com/image/fetch/$s_!q-jd!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 424w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 848w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 1272w, https://substackcdn.com/image/fetch/$s_!q-jd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1a9082d-52ad-4b1b-abe4-2a0802a500de_794x720.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></a><h3>Re-indentation hassle</h3><p>In a language that doesn't use layout syntax (Java, C, Scheme, ...), no re-indentation is really needed when the code changes. The programmer can move a block of code by a simple copy-and-paste and continue solving the real problem. Re-indentation can always be done later and can be done <em>automatically</em>.</p><p>But in a language that uses layout syntax, re-indentation is <em>mandatory</em>, and worse, it can only be done <em>manually</em>. Layout syntax completely disables any editor's auto-indent function. One may think that we might be able to invent a smarter editor that can auto-indent code for those languages. This is simply impossible. This is evident in the analysis of the above example. The two programs differ only in indentation, but they have completely different meanings. Both are grammatically correct programs and the editor has no way to tell which is the one you want unless it can read your mind.</p><p>Some people say that because those languages have advanced semantics, programs are so short that we don't need to re-indent code very often. But experiences prove to me that the need for changing and rewriting code can never be eliminated. Writing code is like writing a book, you can always find pieces that need change or even complete rewrite. Usually changes in the following category will cause re-indentation:</p><ul><li><p>Scope changes. There are lots of examples in this category: lifting an internal function to top level or push a top-level function into an internal function, surrounding a block with let-bindings, loops, conditional statements, try-except or lifting a block out of them, factoring out duplicated patterns, lifting \"invariant code\" out of recursion, ... to name a few. These will necessarily change the indentation of a block of code, and each line needs to be re-indented.</p></li><li><p>Align code. For example in Haskell, when we align the arrows (-&gt;) of a case expression or the equal signs (=) of a function definition, we will notice that we have to re-indent most of the right-hand-sides, because they often contain multi-line expressions but the editors (for example, Emacs' <code>align-regexp</code> function) only move the lines that contains the arrows or equal signs.</p></li><li><p>Renaming. We seldom choose the best names on the first shot, and good names make programs self-explanatory, so renaming is a very important and commonplace action. But in the following simple Haskell program, if we change the name from \"helloworld\" to \"hello\" and don't re-indent the rest of the lines, we will get a parse error.</p><blockquote><pre><code>helloworld z = let x = 1\n                   y = 2 in\n                 x+y+z</code></pre></blockquote><p> Because the code becomes the following after the renaming, and the second line will no longer be aligned to \"x = ...\", and that confuses the parser.</p><blockquote><pre><code>hello z = let x = 1\n                   y = 2 in\n                 x+y+z</code></pre></blockquote><p> A similar thing happens when we lengthen the name to something like \"helloworldcup\". Try it yourself. From this example, I hope you see how simple things are made frustratingly complicated by layout syntax. If you haven't been convinced, try adding more lines to the above <code>let</code> expression.</p></li></ul><p>The interruption from re-indenting code is usually not just one or two seconds, but often tens of seconds, even minutes. The programmer has to put down real problems at hand and turn to the mind-dead re-indenting job. This disrupts the \"flow\", which is essential for producing creative and elegant code.</p><h3>Layout&nbsp;syntax considered harmful</h3><p>I believe that syntax, although an important aspect of natural languages, should not play a significant role in programming languages. It has already brought us too much trouble and frustration and wasted too much of our energy.</p><p>Syntax has prevented lots of new design possibilities in programming languages. You may have heard language designers say: \"Hey this is a nice feature, but the syntax of my language hasn't any room left for it.\" Layout syntax pushes to this direction even more. It forces us to consciously and constantly think about syntax, drawing our attention away from semantics design. It poses certain constraints on how code must be formatted, and makes a language even less extensible. Thus I think layout syntax is the most troublesome type of syntax.</p>",
+  "truncated_body_text": "Although the idea of layout syntax---using whitespace characters to delimit blocks---has been promoted by several languages (notably Python and Haskell), I think this kind of syntax brings more trouble than benefits.",
+  "wordcount": 1716,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        28.04999999999997,
+        43.349999999999916,
+        226.95000000000005
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        14.585999999999979,
+        22.541999999999955,
+        118.01400000000002
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        166,
+        172,
+        244
+      ],
+      "population": 6
+    },
+    "Muted": {
+      "rgb": [
+        124,
+        124,
+        132
+      ],
+      "population": 1
+    },
+    "DarkMuted": {
+      "rgb": [
+        16.829999999999988,
+        26.009999999999955,
+        136.17000000000002
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        180,
+        172,
+        210
+      ],
+      "population": 4
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

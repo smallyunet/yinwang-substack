@@ -1,0 +1,26 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F425f91bd-ce02-4a2a-8a32-d778e7d6492b_2388x1282.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F425f91bd-ce02-4a2a-8a32-d778e7d6492b_2388x1282.jpeg'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbb54010-8b1e-473e-8e4f-8005b0b599cc_2388x1260.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbb54010-8b1e-473e-8e4f-8005b0b599cc_2388x1260.jpeg'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f9351cd-ae7f-4dbd-9d5a-8f84ef32f942_2388x1668.png",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f9351cd-ae7f-4dbd-9d5a-8f84ef32f942_2388x1668.png'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5cd9edf-7c3c-489b-84e8-0f7b14a1253f_2388x1668.png",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5cd9edf-7c3c-489b-84e8-0f7b14a1253f_2388x1668.png'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f366e3b-94aa-4e68-be3c-6236a95e4f80_1291x1332.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f366e3b-94aa-4e68-be3c-6236a95e4f80_1291x1332.jpeg'"
+  },
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aed2d76-511e-4d51-ae95-b78370212d25_3276x2184.jpeg",
+    "error": "InvalidSchema: No connection adapters were found for 'fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aed2d76-511e-4d51-ae95-b78370212d25_3276x2184.jpeg'"
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>编译器的优化</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="home" href="../../">Home</a>
+      </header>
+      <main>
+        <h1>编译器的优化</h1>
+        <p class="subtitle">2023-04-22</p>
+        <article class="post"><p>上 Kent Dybvig 的编译器课程的时候，他有一次对我们说，很多编译器课程都强调“优化”，但大部分编译器的“优化”都是针对糟糕的程序员做的优化。比如 common subexpression elimination（CSE，提取共同子表达式）。本来训练有素的程序员应该避免写出重复而且耗时的表达式，自己定义变量来避免重复的计算。现在编译器却把这事揽在自己头上，好像这很重要一样。其实不是那么重要。</p><p>编译器的速度才是重要的事情。很多编译器做很多这类愚蠢的“优化”，试图把糟糕的代码变成优秀的代码，结果编译器的速度就因为这些优化降低了。每次 build 一个 project 用很长时间，这样修改代码到看结果的周期就变长了，开发效率就降低了。</p><p>所以 Chez Scheme 不强调这些普通的优化，它假设程序员具有…</p></article>
+      </main>
+      <footer class="footer">
+        <p>Generated 2026-02-09.</p>
+      </footer>
+    </div>
+  </body>
+</html>

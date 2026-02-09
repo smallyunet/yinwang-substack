@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/ydiff",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530849,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2012-01-03T18:04:23.000Z",
+  "updated_at": "2022-11-19T10:55:27.952Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "ydiff",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "ydiff: a structural program comparison tool",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "boot-sector",
+  "next_post_slug": "register-allocation",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!IL7L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "(Click on the above picture to see it in action.",
+  "body_html": "<a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!IL7L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!IL7L!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 424w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 848w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 1272w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!IL7L!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!IL7L!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 424w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 848w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 1272w, https://substackcdn.com/image/fetch/$s_!IL7L!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99981bfc-9a10-4513-8b94-cb1f5aef9d0b_300x210.gif 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p>(Click on the above picture to see it in action. See the end of the post for more demos)</p><h2>Motivation</h2><p>I have been imagining a world where programs are not represented as text, but as data structures. They will be edited not with text editors, but with <em>structural editors</em>, which create and manipulate the abstract syntax trees (AST) directly. In such a programming environment, the line-by-line diff utilities and version control tools will stop working, because there are no longer \"lines\" or \"words\" in programs.</p><p>ydiff is a proof-of-concept for handling this situation. It is a diff tool designed for \"structural programming\".</p><p>Currently ydiff takes pains to parse program text into ASTs, but hopefully in the future programs will be stored directly as data structures so that the parsing step can be skipped. This will enable this kind of tool to extend to all programming languages effortlessly.</p><h2>Features</h2><ul><li><p><strong>Language-aware</strong>. ydiff parses programs, understands basic language constructs and will not make non-sensical comparisons. For example it will not compare a string \"10000\" with an integer 10000 even though they look very similar. Also, it tries to match functions with the same name before it attempts to destruct and compare functions of different names.</p></li><li><p><strong>Format insensitive</strong>. The comparison result will not be affected by different number of white spaces, line breaks or indentation. For example, ydiff will not produce a large diff just because you surrounded a block of code with if (condition) {...}.</p></li><li><p><strong>Moved code detection</strong>. ydiff can find refactored code -- renamed, moved, reordered, wrapped, lifted, combined or fragmented code. Refactored code can be detected however deep they are into the structures.</p></li><li><p><strong>Human-friendly output</strong>. The output of ydiff is designed for human understanding. The interactive UI helps the user navigate and understand changes efficiently.</p></li></ul><p>These properties make ydiff helpful for understanding changes. It may also be possibly used for detecting plagiarism in programming classes or copyright infringement of code. For large-scale use cases you may be more interested in <a href=\"http://theory.stanford.edu/~aiken/moss\">MOSS</a>, but ydiff is fundamentally more accurate because it parses programs.</p><h2>Demos</h2><p>Here are some&nbsp;interactive HTML demos&nbsp;with a pretty nice UI design. The left and right windows are always locked in their relative position. A mouse click on changed, moved or unchanged nodes will highlight the matched nodes and scroll the other window to match. After that, the windows will be locked into their new relative position for browsing.</p><p>Okay, here are the demos.</p><ul><li><p><a href=\"http://www.yinwang.org/resources/diff1-diff2.html\">Scheme&nbsp;Demo1</a>. ydiff's algorithm diffing itself (between the first version on GitHub and the latest version).</p></li><li><p><a href=\"http://www.yinwang.org/resources/mk1-mk2.html\">Scheme&nbsp;Demo 2</a>. Comparison of the original <a href=\"http://code.google.com/p/iucs-relational-research\">miniKanren</a> from Professor Dan Friendman and the version I modified in order to support <em>condc</em>, a \"negation operator\". Pay attention to the function <code>unify</code>, whose major part is moved into <code>unify-good</code>.</p></li><li><p><a href=\"http://www.yinwang.org/resources/paredit20-paredit23.html\">Emacs Lisp</a>. Comparison of two versions (v20 and v23) of Taylor Campbell's <a href=\"http://mumble.net/~campbell/emacs/paredit.el\">paredit-mode</a>, a structural editing mode of emacs for Lisp programs.</p></li><li><p><a href=\"http://www.yinwang.org/resources/typed-clojure1-typed-clojure2.html\">Clojure</a>. Compare the first commit of <a href=\"https://github.com/clojure/core.typed/blob/master/src/main/clojure/clojure/core/typed.clj\">Typed Clojure</a> with its recent version.</p></li><li><p><a href=\"http://www.cs.indiana.edu/~yw21/demos/pass1-pass2.html\">Arbitrary S-expressions</a>. Trying to find a bug in an optimizing pass of my Scheme compiler by comparing the IRs (represented as S-expressions).</p></li><li><p><a href=\"http://www.cs.indiana.edu/~yw21/demos/demo1-demo2.html\">Python</a>. ydiff has a completely separate implementation in Python (named \"PyDiff\"), which can diff two Python programs. This is a comparison of two implementations of a small list library that I wrote, which implements Lisp-style lists. The first implementation uses recursive procedures while the second uses Python's generator syntax and is iterative. Pay some attention to <code>append</code>, whose code is moved inside another function <code>appendAll</code>.</p></li><li><p><a href=\"http://www.yinwang.org/resources/nav1-nav2.html\">Javascript</a>. Comparison between two major revisions of the UI code of ydiff itself.</p></li><li><p><a href=\"http://www.yinwang.org/resources/d8-3404-d8-8424.html\">C++ demo1</a> and <a href=\"http://www.yinwang.org/resources/simulator-mips-simulator-arm.html\">C++ demo2</a>. There are two demos for C++. The first demo compares two versions of the d8 Javascript debugger from the <a href=\"http://v8.googlecode.com\">V8 project</a>(v3404 from 2009 and v8424 from 2011). The second demo compares V8's simulators for two different processors (MIPS and ARM).The d8 demo is especially interesting because by clicking on the lines of the method <code>Shell::Initialize</code>in the old version, it can be clearly observed that its body has been distributed into several procedures in the new version:</p><pre><code>Shell::Initialize\nShell::CreateGlobalTemplate\nShell::RenewEvaluationContext\nShell::InstallUtilityScript</code></pre><p> Also the major part of <code>Shell::Main</code> is moved into the helper <code>Shell::RunMain</code>.</p></li></ul><h2>Get the code</h2><p>ydiff is an open source project. You can follow its development on github: <a href=\"http://github.com/yinwang0/ydiff\">yinwang0/ydiff</a> or get its source code from there.</p>",
+  "truncated_body_text": "(Click on the above picture to see it in action. See the end of the post for more demos)",
+  "wordcount": 714,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        114,
+        190,
+        118
+      ],
+      "population": 53
+    },
+    "DarkVibrant": {
+      "rgb": [
+        41.83980582524271,
+        90.76019417475729,
+        44.41456310679612
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        146,
+        249,
+        146
+      ],
+      "population": 143
+    },
+    "Muted": {
+      "rgb": [
+        106,
+        153,
+        97
+      ],
+      "population": 166
+    },
+    "DarkMuted": {
+      "rgb": [
+        48.276699029126206,
+        104.7233009708738,
+        51.24757281553398
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        200,
+        172,
+        170
+      ],
+      "population": 73
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

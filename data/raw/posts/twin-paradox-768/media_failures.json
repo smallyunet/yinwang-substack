@@ -1,0 +1,12 @@
+[
+  {
+    "url": "fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg"
+  },
+  {
+    "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg",
+    "download_url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9f21f1a8-11ac-4939-b0bc-76dfec462e44_1101x885.jpeg"
+  }
+]

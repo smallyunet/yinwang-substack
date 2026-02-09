@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/point-free",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530847,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2012-03-04T00:24:39.000Z",
+  "updated_at": "2022-11-19T10:55:27.562Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "point-free",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "On point-free programming",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "register-allocation",
+  "next_post_slug": "ghc-type",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!4l5X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg",
+  "cover_image_is_square": true,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Concatenative programming, or point-free style, is useful sometimes, but has some serious drawbacks similar to the SKI combinators. Applicative programs can be compiled into point-free style easily, but writing and reading them directly in large scale is usually a mental burden.",
+  "body_html": "<a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4l5X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4l5X!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 424w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 848w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4l5X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4l5X!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 424w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 848w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!4l5X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb531dd6d-b92a-4a1a-8bf2-ea1073566cf9_250x250.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p>Concatenative programming, or point-free style, is useful sometimes, but has some serious drawbacks similar to the <a href=\"http://en.wikipedia.org/wiki/SKI_combinator_calculus\">SKI combinators</a>. Applicative programs can be compiled into point-free style easily, but writing and reading them directly in large scale is usually a mental burden.</p><p>It only works well with functions with one or two arguments. Concatenation of functions with more than two arguments will not be so convenient. If the receiver has an argument order that is different from the sender's output order, you will need a non-trivial permutation of argument order.</p><p>For example, if the function is defined as:</p><pre><code>f :: Int -&gt; String -&gt; Bool\nf x y = ...\n</code></pre><p>If you want to use it as the predicate for filtering a list of strings, that's fine. You just write something like <code>filter (f 2) ...</code>. But what if you want to filter a list of integers? Then you will need to swap the order of the first two arguments before you can do the partial application. So you write <code>filter (flip f 2) ...</code>. Fine. But what if the function looks like:</p><pre><code>g :: Int -&gt; A -&gt; String -&gt; Bool\ng x y z = ...\n</code></pre><p>And you want to filter a list of A's? Which function do you use to switch the argument order, and you expect the reader of the program to learn it?</p><p>What about functions with four arguments. Notice that there are 4! = 24 different argument orders. How many order switchers do we need?</p><p>In order to prevent this kind of plumbing, we have to take unnecessary care when we decide the order of the parameters. This often makes the function look ugly.</p><p>Names are more convenient. Notice that even mathematics uses names for permutations (as in algebra):</p><pre><code>(a b c d)\n(b a d c)\n</code></pre><p>Concatenative programming is like connecting the components of a circuit. But even electronic engineers don't do it this way. They use net-lists with names and labels.</p><p>Names are essential and useful in most cases. Concatenative programming, although nice when used sparsingly, may not be good to serve as a major way of composition.</p><p>At this point, I found this sentence from Tao Te Ching (Chapter 1) especially relevant:</p><p>\"The nameless is the origin of Heaven and Earth The named is the mother of myriad things\"</p>",
+  "truncated_body_text": "Concatenative programming, or point-free style, is useful sometimes, but has some serious drawbacks similar to the SKI combinators. Applicative programs can be compiled into point-free style easily, but writing and reading them directly in large scale is usually a mental burden.",
+  "wordcount": 387,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        196,
+        174,
+        120
+      ],
+      "population": 12
+    },
+    "DarkVibrant": {
+      "rgb": [
+        84,
+        68,
+        36
+      ],
+      "population": 3
+    },
+    "LightVibrant": {
+      "rgb": [
+        214.6731958762887,
+        199.63608247422684,
+        162.7268041237113
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        157,
+        144,
+        110
+      ],
+      "population": 427
+    },
+    "DarkMuted": {
+      "rgb": [
+        87,
+        73,
+        55
+      ],
+      "population": 375
+    },
+    "LightMuted": {
+      "rgb": [
+        178,
+        172,
+        121
+      ],
+      "population": 16
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

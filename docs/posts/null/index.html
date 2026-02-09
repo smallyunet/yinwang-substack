@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Null reference may not be a mistake</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a class="home" href="../../">Home</a>
+      </header>
+      <main>
+        <h1>Null reference may not be a mistake</h1>
+        <p class="subtitle">2013-06-03</p>
+        <article class="post"><a class="image-link image2" data-component-name="Image2ToDOM" href="https://substackcdn.com/image/fetch/$s_!abgd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png" target="_blank"><div class="image2-inset"><picture><source sizes="100vw" srcset="https://substackcdn.com/image/fetch/$s_!abgd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 424w, https://substackcdn.com/image/fetch/$s_!abgd!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 848w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1272w, https://substackcdn.com/image/fetch/$s_!abgd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png 1456w" type="image/webp"><img alt="null" class="sizing-normal" data-attrs='{"src":"https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d9befe71-e2e1-43b2-8891-28e3cf8bb34e_300x225.png","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":null,"width":null,"resizeWidth":null,"bytes":null,"alt":"null","title":null,"type":null,"href":null,"belowTheFold":false,"topImage":true,"internalRedirect":null,"isProcessing":false,"align":null,"offset":false}' fetchpriority="high" src="../../assets/posts/null/a6e6289ed05c1e76.png" title="null"/></source></picture><div></div></div></a><p>The null pointer is considered to be a "<a href="http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare">billion-dollar mistake</a>". I have been wondering why there is such a notion until I saw the <a href="http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare">video</a> where Tony Hoare claims it to be his mistake. In fact, he didn't really say that null pointer should not be used.</p><p>From this video, you can see that <em>introducing</em> null reference is not really a mistake. On the contrary, null references are helpful and sometimes indispensable. The mistake is not in the <em>existence</em> of the null pointers, but in how the type system treats them. Unfortunately, most languages (C++, Java, C#, ...) don't treat them correctly.</p><p>Every class type <code>A</code> of Java is in fact a <em>union type</em> <code>{A, null}</code>, because you can use null where an A object is expected. {A, null} is almost equivalent to the Maybe type of Haskell, where null corresponds to <code>Nothing</code> of Haskell. So the trouble really is that an annotation like <code>{String, null}</code> should be distinguished from <code>String</code>, so that it will be clear whether null can possibly be its value.</p><p>Unfortunately most languages don't provide a convenient union type that you can put <code>String</code> and <code>null</code> together (<a href="http://docs.racket-lang.org/ts-guide/">Typed Racket</a> is an exception). If Java is to have union types, we can say something like:</p><pre><code>{String, null} find1() {
+  if (...) {
+    return "okay";
+  } else {
+    return null;
+  }
+}</code></pre><p>This is saying: <code>find1</code> may return a name which is a <code>String</code>, or it may return <em>nothing</em>. Because of the union type <code>{String, null}</code>, the type system knows that you should check for null when you have called <code>find(),</code> so it will force you to write a null check:</p><pre><code>String s = find();  
+if (s != null) {
+  x = s.length();
+}</code></pre><p>In comparison, if we define a slightly different function find2, with a different return type:</p><pre><code>String find2() {
+    ...
+    return "okay";
+}</code></pre><p>From the return type we know that find2 will never return null, so the type checker can let you you use the String without checking:</p><pre><code>String s = find();
+x = s.length();
+</code></pre></article>
+      </main>
+      <footer class="footer">
+        <p>Generated 2026-02-09.</p>
+      </footer>
+    </div>
+  </body>
+</html>

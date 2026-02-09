@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/touch-control",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85532640,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2021-11-14T13:45:00.000Z",
+  "updated_at": "2022-11-19T11:09:59.081Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "touch-control",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "触控的误区",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 1
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "morita-shoma",
+  "next_post_slug": "movement",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!oodV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "不仅是 Tesla 的车，在很多其它工业设计场景，我都发现滥用触摸屏和触控按键的做法。像这种健身器材，有一个反应不灵，经常按了不动的触摸屏，就已经够失误了，却还把手柄上的“+”和“-”按键也做成了“触控”的。手指按下去没有反馈，就不能确信是否按到了，不能清楚地知道按了几下，而且拿着很容易发生误触，导致意想不到的速度或阻力变化。为了避免误触，设计者把触摸点放在一个凹槽里，不仅手按着别扭，而且仍然会不经意发生误触。",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!oodV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!oodV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 424w, https://substackcdn.com/image/fetch/$s_!oodV!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 848w, https://substackcdn.com/image/fetch/$s_!oodV!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!oodV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!oodV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!oodV!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 424w, https://substackcdn.com/image/fetch/$s_!oodV!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 848w, https://substackcdn.com/image/fetch/$s_!oodV!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!oodV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F68c83987-7f23-4a0c-85bf-75a785e11867_1024x767.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a></figure></div><p>不仅是 Tesla 的车，在很多其它工业设计场景，我都发现滥用触摸屏和触控按键的做法。像这种健身器材，有一个反应不灵，经常按了不动的触摸屏，就已经够失误了，却还把手柄上的“+”和“-”按键也做成了“触控”的。手指按下去没有反馈，就不能确信是否按到了，不能清楚地知道按了几下，而且拿着很容易发生误触，导致意想不到的速度或阻力变化。为了避免误触，设计者把触摸点放在一个凹槽里，不仅手按着别扭，而且仍然会不经意发生误触。</p><p>这可能不光是设计者的失误。市场被早期的 Tesla 等产品的设计错误带偏了，就形成了恶性循环。“触控”这个概念，已经冲昏了广大用户的头脑，很多人以为触控就是“现代”和“先进”，却不理解人的感知。虽叫“触控”，却忽视了人的触觉反馈，是不是挺有讽刺意味？为了产品有竞争力，厂家也不得不跟风，把很多本该是机械式的按钮换成触控式的，以此取悦这些无知的用户。</p><p>我只发现一家公司似乎不受这个趋势误导，坚持着自己的原则和品味，始终不把触摸屏或触控按键放在首要的位置，那就是 Mercedes-Benz。我建议设计者们多向奔驰公司学习，也希望使用者们意识到“触控”这个概念的误区。</p>",
+  "truncated_body_text": "不仅是 Tesla 的车，在很多其它工业设计场景，我都发现滥用触摸屏和触控按键的做法。像这种健身器材，有一个反应不灵，经常按了不动的触摸屏，就已经够失误了，却还把手柄上的“+”和“-”按键也做成了“触控”的。手指按下去没有反馈，就不能确信是否按到了，不能清楚地知道按了几下，而且拿着很容易发生误触，导致意想不到的速度或阻力变化。为了避免误触，设计者把触摸点放在一个凹槽里，不仅手按着别扭，而且仍然会不经意发生误触。",
+  "wordcount": 8,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        11,
+        137,
+        228
+      ],
+      "population": 119
+    },
+    "DarkVibrant": {
+      "rgb": [
+        126,
+        85,
+        27
+      ],
+      "population": 505
+    },
+    "LightVibrant": {
+      "rgb": [
+        81,
+        149,
+        236
+      ],
+      "population": 17
+    },
+    "Muted": {
+      "rgb": [
+        141,
+        121,
+        67
+      ],
+      "population": 101
+    },
+    "DarkMuted": {
+      "rgb": [
+        79,
+        64,
+        41
+      ],
+      "population": 561
+    },
+    "LightMuted": {
+      "rgb": [
+        184,
+        198,
+        202
+      ],
+      "population": 36
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 1,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}

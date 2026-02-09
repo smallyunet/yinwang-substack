@@ -1,0 +1,226 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://yinwang1.substack.com/p/unix",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 85530840,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2011-04-14T10:54:57.000Z",
+  "updated_at": "2022-11-19T10:55:26.650Z",
+  "publication_id": 1087182,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "unix",
+  "social_title": null,
+  "subtitle": "",
+  "teaser_post_eligible": true,
+  "title": "Limitations of the Unix philosophy and the ultimate solution to parsing",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "only_paid",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 0
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "pysonar",
+  "next_post_slug": "layout",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!TPuB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "\"Write programs that do one thing and do it well.",
+  "body_html": "<a class=\"image-link image2\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!TPuB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!TPuB!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 424w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 848w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!TPuB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg\" data-attrs=\"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!TPuB!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 424w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 848w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!TPuB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F08977ad5-01fb-43f5-981d-61ea3732e16f_300x151.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div></div></div></a><p><em>\"Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface\"</em>. This the widely accepted Unix Philosophy.</p><p>There is probably nothing wrong with the first two clauses; those are the basic principles of modular design. But the last clause (about text streams), although being accepted by many people, is not quite right. Here I hope to explore a bit of the reason behind it, and from that I propose a simple and once-and-for-all solution to the parsing problem.</p><h3>Text is a universal interface, but an inconvenient universal interface</h3><p>We all have observed how typical Unix programs work together:</p><ul><li><p>Each program read text from from some input stream (a \"file\" in the virtual file system), computes some result, format the result and print the resulting text to the output stream.</p></li><li><p>Programs can be connected using pipes, or they write into and read from files, so that they can communicate.</p></li></ul><p>All seem to work well? But how does the second program extract information from the text stream? Here is exactly where the pain starts. In order to put information into a text stream, the first program has to <em>encode</em> it, and the second program has to <em>decode </em>the received text.</p><p>The encoding part is easy, we just decide on some <em>syntax</em>, for example \"each line contains comma-separated fields\". But when decoding, we will need something like<em> regular expressions</em> if the encoding of information is simple enough, but we will need a <em>parser</em> if we have to communicate something of a <em>recursive</em> nature, such as program text. For regular expressions, we could use Perl, AWK, or a regexp library in any language, but for the parser, we have no choice but painstakingly writing it.</p><p>Even with modern parsing technologies, writing a parser is still way too much pain. They are hard to learn and hard to tweak. The language at hand may have a horribly designed syntax, making it very hard to parse. Ambiguity, left recursion, context sensitiveness... Those problems have never stopped harassing compiler writers.</p><h3>The need for a standard binary format</h3><p>Those problems suggests that it is problematic to use text to represent data structures such as abstract syntax trees (ASTs). It is just unreasonably hard to decode the information that we encoded a minute ago. Indeed, text is a universal interface, but it is not the only one. There are many other universal interfaces around. Why should we stick to text?</p><p>If we think of it in a type theoretic way, text streams are only one type: string. We have many other types: integers, booleans, records, ... Why should we encode all other types into strings? We need a more general and efficient format that can represent all types, instead of converting them into strings.</p><p>In fact, text is part of a more general concept which I will call <em>standard binary format</em> in this post. Some people hate the term \"binary formats\", but they haven't realized that all data in computers and networks are in binary formats. The so-called \"plain text\" is just binary bits encoded in ASCII or Unicode, so they are also \"binary formats\".</p><p>Just think about this question: If there were no standardization of text (such as ASCII or Unicode) until today, would anybody still use text as an interface? Obviously No. If everybody uses a different encoding of the alphabet, we will have no way to display text, not to mention to use it as an \"interface\" for other kinds of information.</p><p>So the point is not really about \"text\" or binary, it is all about <em>standardization</em>. If we have a \"standard binary format\" for all types of data (including text), we would have a much better universal interface. Data structures will be passed around as they are, and there will be no need for complicated decoding procedure. This is a principle originated from the functional programming community: \"avoid encoding.\"</p><p>We have many candidates for standard binary format: XML, JSON, protocol buffers, S-expressions, ... I'll try to analyze their capabilities and limitations later, but let's assume such a format can be designed and standardized.</p><h3>Programs should not be encoded as text either</h3><p>Now suppose that we have a standard binary format for all data structures, we can also use it to represent ASTs. We will need extensions for existing editors or browsers. The editors or browsers will \"render\" the ASTs into various styles. They could be either text, graphics, sounds or some other sensory signals. The editors will allow the programmer to manipulate the ASTs directly using natural and intuitive commands, and they will save the ASTs in a standard binary format. By doing so, we completely eliminate the need for parsers because compilers can just read in the ASTs directly. We also completely eliminate the concept of \"syntax\". Compiler and IDE writers will be living a much happier life and programmer productivity will be greatly enhanced, because we will easily have much better editor support for ALL programming languages.</p><p>Don't get me wrong. I'm not saying that parsing is not an interesting problem. In fact, it is fascinating. Maybe it is the pure interest in the problem itself that is driven language designers to use syntaxes are harder rather than easier to parse, thus creating problems rather than solve problems.</p><p>You may think that extending editors and browsers is too much work, but actually it can be quite easy. In fact, a standard binary format for ASTs can be much simpler than formats like JPEG. Every editor and browser should be easily extensible to it. The only issue is how to make people agree on a standard. We may need some sort of committee to do the standardization. But aren't we doing that for each new language, to make us agree on a syntax? This solution only requires us to do the standardization for ASTs once, for all languages.</p><p>This is the ultimate solution to the parsing problem, because it eradicate the root of the problem by changing the way we represent and manipulate programs. It is a trivial solution from a research point of view, but it demonstrates how a hard problem can be solved in a trivial way. However, the implication of this solution is definitely non-trivial. It will open up many surprisingly interesting possibilities.</p><p>UPDATE 4/2/2012: In order to demonstrate how our programming environment can change once we have a standard format for ASTs, I developed a \"structural diff\" tool called <em>ydiff</em>. You can find information about it <a href=\"http://yinwang0.wordpress.com/2012/01/03/ydiff\">here</a>.</p>",
+  "truncated_body_text": "\"Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface\". This the widely accepted Unix Philosophy.",
+  "wordcount": 1093,
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        92,
+        188,
+        92
+      ],
+      "population": 1
+    },
+    "DarkVibrant": {
+      "rgb": [
+        13,
+        130,
+        14
+      ],
+      "population": 943
+    },
+    "LightVibrant": {
+      "rgb": [
+        161.02695652173915,
+        216.37304347826085,
+        161.02695652173915
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        100,
+        164,
+        92
+      ],
+      "population": 4
+    },
+    "DarkMuted": {
+      "rgb": [
+        74,
+        150,
+        77
+      ],
+      "population": 245
+    },
+    "LightMuted": {
+      "rgb": [
+        163,
+        201,
+        172
+      ],
+      "population": 46
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 112147973,
+      "name": "Yin Wang",
+      "handle": "yinwang797266",
+      "previous_name": null,
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d757f1b2-3a69-4ec7-86c3-07d988df31f0_144x144.png",
+      "bio": null,
+      "profile_set_up_at": "2023-08-03T12:40:46.952Z",
+      "reader_installed_at": null,
+      "publicationUsers": [
+        {
+          "id": 2991209,
+          "user_id": 112147973,
+          "publication_id": 2941564,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 2941564,
+            "name": "Yin Wang",
+            "subdomain": "yinwang797266",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 112147973,
+            "primary_user_id": 112147973,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2024-08-27T12:19:45.015Z",
+            "email_from_name": null,
+            "copyright": "Yin Wang",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "paidPublicationIds": [],
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 0,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "is_geoblocked": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#538cfa",
+    "background_pop": "#538cfa",
+    "color_theme_bg_web": null,
+    "cover_bg_color": "#FFFFFF",
+    "cover_bg_color_secondary": "#f0f0f0",
+    "background_pop_darken": "#3a7bf9",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#3a7bf9",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(83, 140, 250, 0.2)",
+    "color_theme_bg_pop_30": "rgba(83, 140, 250, 0.3)",
+    "print_pop": "#538cfa",
+    "color_theme_accent": "#538cfa",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#538cfa",
+    "font_family_headings_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_headings_preset": 700,
+    "font_family_body_preset": "Lora,sans-serif",
+    "font_weight_body_preset": 400,
+    "font_size_body_offset": "1px",
+    "font_preset_heading": "sans",
+    "font_preset_body": "fancy_serif",
+    "home_hero": "newspaper",
+    "home_posts": "list",
+    "web_bg_color": "#ffffff",
+    "background_contrast_1": "#f0f0f0",
+    "background_contrast_2": "#dddddd",
+    "background_contrast_3": "#b7b7b7",
+    "background_contrast_4": "#929292",
+    "background_contrast_5": "#515151",
+    "color_theme_bg_contrast_1": "#f0f0f0",
+    "color_theme_bg_contrast_2": "#dddddd",
+    "color_theme_bg_contrast_3": "#b7b7b7",
+    "color_theme_bg_contrast_4": "#929292",
+    "color_theme_bg_contrast_5": "#515151",
+    "color_theme_bg_elevated": "#ffffff",
+    "color_theme_bg_elevated_secondary": "#f0f0f0",
+    "color_theme_bg_elevated_tertiary": "#dddddd",
+    "color_theme_detail": "#e6e6e6",
+    "background_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(83, 140, 250, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#868787",
+    "background_pop_rgb": "83, 140, 250",
+    "color_theme_bg_pop_rgb": "83, 140, 250",
+    "color_theme_accent_rgb": "83, 140, 250"
+  },
+  "comments": []
+}
