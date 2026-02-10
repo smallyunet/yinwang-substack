@@ -25,6 +25,15 @@ def rewrite_images(body_html: str, media_map: dict[str, str], rel_prefix: str) -
     if not body_html:
         return ""
     soup = BeautifulSoup(body_html, "lxml")
+
+    # Substack injects interactive image controls (e.g. restack / expand) next to images.
+    # In our static build these controls are non-functional and often render as blank buttons,
+    # so remove them.
+    for el in soup.select(".image-link-expand"):
+        el.decompose()
+    for el in soup.select("button.restack-image, button.view-image"):
+        el.decompose()
+
     for img in soup.find_all("img"):
         src = img.get("src")
         if src and src in media_map:
