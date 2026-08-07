@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import unquote, urljoin
 
+import requests
 from bs4 import BeautifulSoup
 
 from _util import (
@@ -312,7 +313,18 @@ def main() -> None:
                 body_html = body_html_path.read_text(encoding="utf-8")
             else:
                 post_url = f"{cfg.base_url}/api/v1/posts/{slug}"
-                post = http_get_json(sess, post_url, timeout_s=cfg.timeout_s)
+                try:
+                    post = http_get_json(sess, post_url, timeout_s=cfg.timeout_s)
+                except requests.HTTPError as exc:
+                    status = exc.response.status_code if exc.response is not None else None
+                    if status != 404:
+                        raise
+                    log(
+                        "  post: unavailable (HTTP 404), skipping and continuing",
+                        quiet=args.quiet,
+                    )
+                    polite_sleep(cfg)
+                    continue
                 write_json(post_json_path, post)
 
                 body_html = post.get("body_html") or ""
